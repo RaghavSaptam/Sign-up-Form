@@ -1,9 +1,25 @@
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse.woff2);
+}
+
+@font-face {
+    font-family: norseBold;
+    src: url(./fonts/Norsebold.woff2);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-img{
-    height: 700px;
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-family: norseBold;
 }
