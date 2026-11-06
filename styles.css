@@ -20,6 +20,35 @@ body{
     width: 100%;
 }
 
+body{
+    display: flex;
+}
+
+.left{
+    width: 30%;
+    background-image: url(./img/back-image.avif);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 21, 21, 0.5);
+    padding: 10px 0;
+    margin-top: 150px;
+}
+
+#logo{
+    height: 130px;
+}
+
 h1{
-    font-family: norseBold;
+    font-family: norsebold;
+    color: white;
+    font-size: 90px;
+}
+
+#credit{
+    color: white;
+    margin: 530px 150px;
 }
