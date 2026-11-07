@@ -22,6 +22,7 @@ body{
 
 body{
     display: flex;
+    background-color: #F9FAFB;
 }
 
 .left{
@@ -51,4 +52,72 @@ h1{
 #credit{
     color: white;
     margin: 530px 150px;
+}
+
+.right{
+    /* max-width: 70%; */
+    margin-top: 100px;
+    /* padding: 40px; */
+    font-family: Roboto;
+}
+
+.right .top{
+    /* margin-top: 50px; */
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 570px;
+    padding-left: 40px;
+}
+
+.inp{
+    /* border: 2px solid red; */
+    background-color: white;
+    padding: 20px;
+    width: 1225px;
+    /* box-shadow: 1px 1p; */
+}
+
+.inp p{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 24px;
+    /* width: 200px; */
+
+}
+
+form{
+    /* background-color: white; */
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.but{
+    padding-left: 40px;
+}
+
+small{
+    font-size: 12px;
+    color: rgb(39, 36, 36);
+}
+
+.but{
+    margin-top: 30px;
+}
+
+#sub{
+    background-color: #596D48;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
 }
