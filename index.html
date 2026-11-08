@@ -16,44 +16,39 @@
     </div>
     <div class="right">
         <p class="top">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
-        <br>
-        <p class="top">You <i>know</i> you want to.</p>
-        <br>
-        <br>
+        <p class="top" id="bott">You <i>know</i> you want to.</p>
         <div class="inp">
             <p>Let's do this!</p>
             <form>
                 <div>
-                    <small>FIRST NAME</small>
-                    <input type="text">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" id="fname" name="firstName" required>
                 </div>
                 <div>
-                    <small>LAST NAME</small>
-                    <input type="text">
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" id="lname" name="lastName" required>
                 </div>
                 <div>
-                    <small>EMAIL</small>
-                    <input type="email">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div>
-                    <small>PHONE NUMBER</small>
-                    <input type="tel">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone" required>
                 </div>
                 <div>
-                    <small>PASSWORD</small>
-                    <input type="password" class="pass">
+                    <label for="pass1">PASSWORD</label>
+                    <input type="password" id="pass1" name="password" required>
                 </div>
                 <div>
-                    <small>CONFIRM PASSWORD</small>
-                    <input type="password" class="pass">
+                    <label for="pass2">CONFIRM PASSWORD</label>
+                    <input type="password" id="pass2" name="confirmPassword" required>
                 </div>
+                <button type="submit" id="hide">Create Account</button>
             </form>
         </div>
         <div class="but">
             <button id="sub">Create Account</button>
-            <br>
-            <br>
-            <br>
             <p>Already have an account? <span id="green">Log in</span></p>
         </div>
     </div>

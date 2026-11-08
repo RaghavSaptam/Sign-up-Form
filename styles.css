@@ -59,6 +59,11 @@ h1{
     font-family: Roboto;
 }
 
+.right #bott{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 .right .top{
     font-size: 20px;
     font-weight: 500;
@@ -86,6 +91,10 @@ input{
     border: 2px solid #E5E7EB;
 }
 
+label{
+    font-size: 12px;
+}
+
 input:focus{
     outline: none;
     border-color: rgb(103, 103, 240);
@@ -101,19 +110,16 @@ form{
     gap: 40px;
 }
 
+#hide{
+    display: none;
+}
+
 .but{
     padding-left: 40px;
-}
-
-small{
-    font-size: 12px;
-    color: rgb(39, 36, 36);
-}
-
-.but{
     margin-top: 30px;
     margin-left: 20px;
 }
+
 
 #sub{
     background-color: #596D48;
@@ -122,6 +128,7 @@ small{
     font-size: 15px;
     font-weight: 600;
     color: white;
+    margin-bottom: 30px;
 }
 
 #green{
