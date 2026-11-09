@@ -136,6 +136,6 @@ form{
     font-weight: 600;
 }
 
-input:user-invalid{
+.pass:user-invalid{
     border-color: red;
 }
